@@ -1,0 +1,72 @@
+body{
+    grid-template-columns: repeat(1 1fr);
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 3px;
+    padding: 0px;
+    text-align: center;
+}
+*::selection{
+    background-color: red;
+}
+h1,p{
+    text-align: left;
+    margin-left: 34%;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+input{
+    width:30%;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: left;
+    border: 1px solid whitesmoke;
+}
+
+hr{
+    display: inline-block;
+    width: 10%;
+}
+.sow-1{
+    margin-right: 22px;
+}
+.sow-2{
+    margin-left: 22px;
+}
+
+
+.cont-1{
+    background-color: red;
+    text-align: center;
+    border: none;
+    width: 32%;
+    padding: 10px;
+}
+.cont-1:hover{
+    cursor: pointer;
+}
+.cont-2{
+    border: none;
+    background-color: darkblue;
+    width: 10%;
+    padding: 12px;
+}
+.cont-3{
+    border: none;
+    background-color: red;
+    width: 10%;
+    padding: 12px;
+}
+.cont-4{
+    border: none;
+    background-color: rgb(6, 125, 236);
+    width: 10%;
+    padding: 12px;
+}
+
